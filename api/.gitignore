@@ -1,0 +1,8 @@
+
+.DS_Store
+app/logs/*.log
+*~
+.idea
+app.db
+.editorconfig
+vendor

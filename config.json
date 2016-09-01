@@ -1,0 +1,21 @@
+{
+  "vm": {
+    "ip": "192.168.33.10",
+    "memory": "4096",
+    "box": "api",
+
+    "synced_folders": [
+      {
+        "host_path": "./api",
+        "guest_path": "/var/www/html/api/",
+        "type": "nfs"
+      }
+    ],
+    "forwarded_ports": [],
+    "ssh":{
+      "user": "vagrant",
+      "password": "vagrant"
+    }
+  }
+
+}
